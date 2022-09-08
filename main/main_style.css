@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #212F3C ;
+}
+
+#main_title{
+	height: 100%;
+	display: flex;
+	font-family: 'Pacifico', sans-serif;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 0;
+	font-size: 7vh;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(to bottom right,#45B39D,#106133);
+	color: transparent;
+}
+
+.main_content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+}
