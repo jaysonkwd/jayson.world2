@@ -30,12 +30,12 @@ body{
 	justify-content: space-evenly;
 	height: 100%;
 	order:  2;
-	padding-top: 70px;
+	padding-top: 100px;
 	align-content: stretch;
 	flex-shrink: 0;
 }
 
-@media all and (max-width: 1500px){
+@media all and (max-width: 1000px){
 	.main_content{
 		flex-direction: column;
 		height: 100%;
@@ -48,4 +48,8 @@ body{
 	 background-color: #45B39D; 
 	 border-radius: 20px; 
 	 padding: 80px
+}
+
+.main_content > img:active {
+	 background-color: #24A25F;
 }
